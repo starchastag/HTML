@@ -1,83 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Tutorial</title>
+    <title>Button</title>
 </head>
+
 <body>
-    <h1><mark> Introduction</mark> </h1>
-    <h2> HTML stands for Hyper Text Markup language </h2>
-    <h2> HTML is the standard markup lanuage for creating Web page </h2>
-    <h2> HTML describe the structure of a Web page . </h2>
-    <h2> HTML elements tell the browser how to display the content  </h2>
-    <h2> HTML element label piece of content such as "this is a heading ", "this is paragraph " </h2>
-    <h1> Otherwise we can write in this way </h1>
+    <h1> Button </h1>
+    <p><br>
+        <br> The &lt;button&gt; tag is used to crate a clickable button with HTML form on our webpafe we can put like text or image within the &lt;button&gt; ......&lt;/button&gt; tag.
+        <br> we should always specify the type attribute for a &lt;button&gt; tag Diffnt browser use different default type for the button element.</p>
+    <br>
+    <br> HTML Button tag can be used inside and outside the form
+    <br>
+    <br>if we use it inside the form it works as the sumbit button . we can also use its reset button.
+    <br> if we use it outside the form. then we can call the javascript on it.
+    <br>
+    <h2>HTML Button Tag Example</h2>
+    <p> Let us see the code to display the button.</p>
+    <br> &lt;button&gt; name="button" type="button">Click Here&lt;/button&gt; &lt;script&gt;<br> function hellp()<br>{ alert("hello javatpoint user");<br> }
+    <br>&lt;/script&gt;
 
-    <h2><mark> Introduction Of HTML blue</mark> </h2>
-    <p>  HTML satnds for HyperText Markup Language . it is used to design web pages using a markup language.
-    <br> HTML is the combination of Hypertext and Markup planguage .
-    <br> A Markup language is used to define the text document within the tag which defines the structure of web pages.
-    <br> This language is used to annotate text so that a machine can understand it and manipulate text accordingly.
-    <br> The language uses tages to define what manippulation has to be done on the text.
-    <br> HTML is a markup language used by the browser to manipulate text ,images and other content, in order to display it in the required format . <mark>HTML was created by Tim Berners-Lee in 1991. The first-ever versio of HTML was HTML 1.0 ,but the first standard version was HTML 2.0 published in 1995.</mark>
-    <br><mark> <b>Elements and Tags :</mark> </b> 
-    <blockquote> uses predefined tags and elements which tell the browser how to properly display the content. Remember to include closing tags . if omitted, the browser applies the effect of the opening tag untill the end of the page.</p></blockquote>
-    <h2><mark>  HTML Text Formatting Elements :</mark></h2>
+    <br><br> Now the output is :<br>
+    <form>
+        Enter your Name:
+        <input type="text" name=" name " />
+        <br/>
+        <br> <button type="reset">reset</button>
+    </form>
+    <br>
+    <br>
+    <h2>HTML ofHTML Buton Tag</h2>
+    <p>
+        <br>
+        <br>&lt; button &gt; tag support all golbal tag attributes and some specfic additional attirbutes
+        <br><br>There is given a list of html button button g attributes . </p>
+    <br>
+    <br>
+    <table>
+        <th>Attributes </th>
+        <th>Description</th>
+        <tr>
+            <td>autofocus </td>
+            <td>it specfic that a button should automatically get get focus while the loading of the page.</td>
+        </tr>
+        <tr>
+            <td>displed</td>
+            <td>it specifies that a btoon should be diabled</td>
+        </tr>
+        <tr>
+            <td>form</td>
+            <td>it specfic one or more form that the button belongs to .</td>
+        </tr>
+        <tr>
+            <td>formaction</td>
+            <td>it is used for submit type. it secifies where to send the form data when form is submitted .
 
-    <blockquote> HTML satnds for HyperText Markup Language . it is used to design web pages using a markup language.
-        <br> HTML is the combination of Hypertext and Markup planguage .
-        <br> A Markup language is used to define the text document within the tag which defines the structure of web pages.
-        <br> This language is used to annotate text so that a machine can understand it and manipulate text accordingly.
-        <br> The language uses tages to define what manippulation has to be done on the text.
-        <br> HTML is a markup language used by the browser to manipulate text ,images and other content, in order to display it in the required format . <mark>HTML was created by Tim Berners-Lee in 1991. The first-ever versio of HTML was HTML 1.0 ,but the first standard version was HTML 2.0 published in 1995.</mark>
-        <br> <b>Elements and Tags : </b> HTML uses predefined tags and elements which tell the browser how to properly display the content. Remember to include closing tags . if omitted.=, the browser applies the effect of the opening tag untill the end of the page.</p>
-        <h2><mark>  HTML Text Formatting Elements :</mark></h2></blockquote>
+        </tr>
+        <tr>
+            <td>formmethod></td>
+            <td>it specifies how to send form -data.</td>
+        </tr>
+        <tr>
+            <td>formnvalidate</td>
+            <td>it specifies that the form data should not be validated on submission.</td>
 
+        </tr>
+        <tr>
+            <td>formtarget</td>
+            <td>it specifies that where to display the response agter submitting the form.</td>
 
-        <p>    Tag	Description<br>
-        <h1>Hello i am sparta </h1><br>
-        <h2>I am a BCA student in <mark>Lucknow Universcity.</mark></h2><br>
-        <h3>This tutorial to help for bignner .</h3><br>
-        <h4>This is fourth type of headding </h4><br>
-        <h5>This is fifth type of headding </h5><br>
-        <h6> This is sixth type of headding </h6><br>
-        <b>	Defines bold text<br></b>
-        <em>	Defines emphasized text<br> </em>
-        <i>	Defines a part of text in an alternate voice or mood<br></i>
-        <small>	Defines smaller text<br></small>
-        <strong>	Defines important text<br></strong>
-        <sub>	Defines subscripted text<br></sub>
-        <sup>	Defines superscripted text<br></sup>
-        <ins>	Defines inserted text<br></ins>
-        <del>	Defines deleted text<br></del>
-        <mark>	Defines marked/highlighted text <br> 
-         
-        </p>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>it specifies the name of the button.</td>
+        </tr>
+        <tr>
+            <td>type</td>
+            <td>it specifies the type of the button .</td>
 
-        <h1>HTML Qutation Tags ::</h1>
-        <br><h2>Tag	Description--</h2>
-           <p>    
-            
-            <abbr>	Defines an abbreviation or acronym<br>
-            <address>	Defines contact information for the author/owner of a document<br>
-            <bdo>	Defines the text direction<br>
-            <blockquote>	Defines a section that is quoted from another source<br>
-            <cite>	Defines the title of a work<br>
-            <q>	Defines a short inline quotation<br>
-             
-            </p>
+        </tr>
+        <tr>
+            <td>value</td>
+            <td>it specifies the value of the button.</td>
+        </tr>
 
-        <h1></h1>
-
-        <p>
-            Use the <a> element to define a link
-                Use the href attribute to define the link address
-                Use the target attribute to define where to open the linked document
-                Use the <img> element (inside <a>) to use an image as a link
-                Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
-        </p>
-
+    </table>
 </body>
+
 </html>

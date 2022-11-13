@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        .main {
+            height: 500 px;
+            width: 400px;
+            background-color: aqua;
+        }
+        
+        #parent-row1 {
+            width: 500px;
+            height: 200px;
+            background-color: rgb(189, 112, 11);
+        }
+        
+        #parent-row2 {
+            width: 500px;
+            height: 200px;
+            background-color: rgb(5, 223, 41);
+        }
+        
+        .col1 {
+            width: 250px;
+            height: 200px;
+            background-color: rgb(99, 5, 223);
+            float: left;
+        }
+        
+        .col2 {
+            width: 250px;
+            height: 200px;
+            background-color: rgb(223, 5, 89);
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <!----main div-->
+        <div id="parent-row1">
+            <!--parent div-->
+            <div class="col1">
+                <!--col1-->Home </div>
+            <div>
+                <!--col2--->About </div>
+        </div>
+        <hr>
+        <div id="parent-row2">
+            <!--parent div-->
+            <div class="col2">
+                <!--col1-->Contact </div>
+            <div>
+                <!--col2--->Mobile No. </div>
+        </div>
+    </div>
+</body>
+
+</html>

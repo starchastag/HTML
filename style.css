@@ -1,4 +1,49 @@
-table{
-    border-collapse: collapse;
-    border: 2px ;
-}
+                    body {
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        background-color: pink;
+                    }
+                    
+                    h1 {
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    
+                    form {
+                        border: 2px solid rgb(3, 27, 54);
+                        width: 100%;
+                        margin: 8px 0;
+                        padding: 12px 20px;
+                        display: inline-block;
+                        border: 2px solid green;
+                        box-sizing: border-box;
+                    }
+                    
+                    button:hover {
+                        opacity: 0.7;
+                    }
+                    
+                    button {
+                        background-color: rgb(13, 145, 77);
+                        width: 40%;
+                        color: orange;
+                        padding: 15px;
+                        margin: 10px 0px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                    
+                    .chancelbtn {
+                        width: auto;
+                        padding: 10px 20px;
+                        margin: 10px 5px;
+                    }
+                    
+                    .loginbtn {
+                        width: auto;
+                        padding: 10px 20px;
+                        margin: 10px 5px;
+                    }
+                    
+                    container {
+                        padding: 25px;
+                        background-color: lightblue;
+                    }

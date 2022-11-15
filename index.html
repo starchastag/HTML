@@ -5,90 +5,198 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button</title>
+    <title>Home</title>
+    <style>
+        .main {
+            width: 1000px;
+            height: 450px;
+            background-color: #f44336;
+        }
+        
+        .row1 {
+            width: 1000px;
+            height: 100px;
+            background-color: #E91E63;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        
+        .row2 {
+            width: 1000px;
+            height: 40px;
+            background-color: #9C27b0;
+            color: white;
+        }
+        
+        .row2-col1 {
+            width: 200px;
+            height: 40px;
+            background-color: #673AB7;
+            float: left;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .row2-col2 {
+            width: 200px;
+            height: 40px;
+            background-color: #3F51B5;
+            float: left;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .row2-col3 {
+            width: 200px;
+            height: 40px;
+            background-color: #0336fa;
+            float: left;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .row2-col4 {
+            width: 200px;
+            height: 40px;
+            background-color: #2196F3;
+            float: left;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .row2-col5 {
+            width: 200px;
+            height: 40px;
+            background-color: #673AB7;
+            float: left;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .row3 {
+            width: 1000px;
+            height: 200px;
+            background-color: gray;
+        }
+        
+        .row3-col1 {
+            width: 250px;
+            height: 200px;
+            background-color: gray;
+            float: left;
+        }
+        
+        .row3-col2 {
+            width: 750px;
+            height: 200px;
+            float: left;
+        }
+        
+        .row3-col1-row1 {
+            width: 250px;
+            height: 40px;
+            background-color: #0336fa;
+        }
+        
+        .row3-col1-row2 {
+            width: 250px;
+            height: 40px;
+            background-color: #2196F3;
+        }
+        
+        .row3-col1-row3 {
+            width: 250px;
+            height: 40px;
+            background-color: #3F51B5;
+        }
+        
+        .row3-col1-row4 {
+            width: 250px;
+            height: 40px;
+            background-color: #E91E63;
+        }
+        
+        .row3-col1-row5 {
+            width: 250px;
+            height: 40px;
+            background-color: green;
+        }
+        
+        .row4 {
+            width: 1000px;
+            height: 40px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+        }
+        
+        .row5 {
+            width: 1000px;
+            height: 100px;
+            background-color: aliceblue;
+        }
+        
+        .row5-image1 {
+            float: left;
+            color: white;
+            background-color: red;
+        }
+        
+        .row5-image2 {
+            float: left;
+            color: white;
+            background-color: green;
+        }
+        
+        .row5-image3 {
+            float: right;
+            color: white;
+            background-color: yellow;
+        }
+    </style>
 </head>
 
 <body>
-    <h1> Button </h1>
-    <p><br>
-        <br> The &lt;button&gt; tag is used to crate a clickable button with HTML form on our webpafe we can put like text or image within the &lt;button&gt; ......&lt;/button&gt; tag.
-        <br> we should always specify the type attribute for a &lt;button&gt; tag Diffnt browser use different default type for the button element.</p>
-    <br>
-    <br> HTML Button tag can be used inside and outside the form
-    <br>
-    <br>if we use it inside the form it works as the sumbit button . we can also use its reset button.
-    <br> if we use it outside the form. then we can call the javascript on it.
-    <br>
-    <h2>HTML Button Tag Example</h2>
-    <p> Let us see the code to display the button.</p>
-    <br> &lt;button&gt; name="button" type="button">Click Here&lt;/button&gt; &lt;script&gt;<br> function hellp()<br>{ alert("hello javatpoint user");<br> }
-    <br>&lt;/script&gt;
-
-    <br><br> Now the output is :<br>
-    <form>
-        Enter your Name:
-        <input type="text" name=" name " />
-        <br/>
-        <br> <button type="reset">reset</button>
-    </form>
-    <br>
-    <br>
-    <h2>HTML ofHTML Buton Tag</h2>
-    <p>
-        <br>
-        <br>&lt; button &gt; tag support all golbal tag attributes and some specfic additional attirbutes
-        <br><br>There is given a list of html button button g attributes . </p>
-    <br>
-    <br>
-    <table>
-        <th>Attributes </th>
-        <th>Description</th>
-        <tr>
-            <td>autofocus </td>
-            <td>it specfic that a button should automatically get get focus while the loading of the page.</td>
-        </tr>
-        <tr>
-            <td>displed</td>
-            <td>it specifies that a btoon should be diabled</td>
-        </tr>
-        <tr>
-            <td>form</td>
-            <td>it specfic one or more form that the button belongs to .</td>
-        </tr>
-        <tr>
-            <td>formaction</td>
-            <td>it is used for submit type. it secifies where to send the form data when form is submitted .
-
-        </tr>
-        <tr>
-            <td>formmethod></td>
-            <td>it specifies how to send form -data.</td>
-        </tr>
-        <tr>
-            <td>formnvalidate</td>
-            <td>it specifies that the form data should not be validated on submission.</td>
-
-        </tr>
-        <tr>
-            <td>formtarget</td>
-            <td>it specifies that where to display the response agter submitting the form.</td>
-
-        </tr>
-        <tr>
-            <td>name</td>
-            <td>it specifies the name of the button.</td>
-        </tr>
-        <tr>
-            <td>type</td>
-            <td>it specifies the type of the button .</td>
-
-        </tr>
-        <tr>
-            <td>value</td>
-            <td>it specifies the value of the button.</td>
-        </tr>
-
-    </table>
+    <div class="main">
+        <div class="row1">
+            Welcome To Sparta Tech Solution
+        </div>
+        <div class="row2">
+            <div class="row2-col1">Home</div>
+            <div class="row2-col2">About</div>
+            <div class="row2-col3">Course</div>
+            <div class="row2-col4">Gallery</div>
+            <div class="row2-col5">Contact Us</div>
+        </div>
+        <div class="row3">
+            <div class="row3-col1">
+                <div class="row3-col1-row1">Home</div>
+                <div class="row3-col1-row2">About</div>
+                <div class="row3-col1-row3">Course</div>
+                <div class="row3-col1-row4">Gallery</div>
+                <div class="row3-col1-row5">About Us</div>
+            </div>
+            <div class="row3-col2">
+                <img src="img.jpg" width="750px" height="200px" />
+            </div>
+        </div>
+        <div class="row4">
+            Our Clients
+        </div>
+        <div class="row5">
+            <div class="row5-image1">
+                <img src="img.jpg" width="330px" height="80px" />
+            </div>
+            <div class="row5-image2 ">
+                <img src="img.jpg" width="330px" height="80px" />
+            </div>
+        </div>
+        <div class="row5-image3 ">
+            <img src="img.jpg" width="330px" height="80px" />
+        </div>
+    </div>
 </body>
 
 </html>
